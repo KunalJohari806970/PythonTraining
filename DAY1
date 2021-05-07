@@ -1,0 +1,11 @@
+st="python"
+
+c='c'+st[1:]
+c
+
+name='kunal.py'
+extn=name[6:]
+extn
+
+fname=name[:5]
+fname
