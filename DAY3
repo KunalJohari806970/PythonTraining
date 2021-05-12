@@ -1,0 +1,40 @@
+names = ["john", "jake", "jack", "george", "jenny", "jason"]
+for i in names:
+    if len(i)<5 and 'e' in i:
+        print(i)
+        
+Dict= {"name": "python", "ext": "py", "creator": "guido"}
+Dict.keys()
+Dict.values()
+
+for i in range(50):
+    print(i)
+    if i%3==0 and i%5==0:
+        print('Fizzbuzz')
+    if i%3==0:
+        print('Fizz')
+    if i%5==0:
+        print('Buzz')
+            
+Hardcode=23
+io=int(input("Enter a Number:"))
+if io>Hardcode:
+    print('Higher')
+else:
+    print('Lower')
+    
+print(Dict)
+for i in Dict:
+    print(i,Dict[i])
+    
+i=0
+for i in range(3):
+    if i<=3:
+        Hardcode=23
+        io=int(input("Enter a Number:"))
+        if io>Hardcode:
+            print('Higher')
+        elif io<Hardcode:
+            print('Lower')
+        else:
+            print('Same')
