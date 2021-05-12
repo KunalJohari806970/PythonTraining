@@ -1,0 +1,9 @@
+list_1 = input("Enter the first list: ") # Getting input from user e.g: 12 13 14 15 16
+list_2 = input("Enter the second list: ")
+new_list1 = set([int(num) for num in list_1.split(" ")])
+new_list2 = set([int(num) for num in list_2.split(" ")])
+
+print(f'Intersection: {new_list1 & new_list2}')
+
+print(f"Differ L2: {new_list1 - new_list2}")
+print(f"Differ L1: {new_list2 - new_list1}")
