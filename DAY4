@@ -1,0 +1,48 @@
+i=6
+if i==7:
+    print('Wrong')
+else:
+    print('Correct')
+    
+i=7
+if i==7:
+    print('Correct')
+else:
+    print('Wrong')
+    
+def get_multiple(n):
+    for i in range(5):
+        i=i+1
+        print(i*n)
+get_multiple(5)
+
+get_multiple(3)
+
+first_name = "Kunal"
+last_name = "Johari"
+age = 24
+profession = "IT guy"
+affiliation = "Python Training"
+print(("Hello, {first_name} {last_name}. You are {age}. " + 
+       "You are a {profession}. You are a member of {affiliation}.") \
+       .format(first_name=first_name, last_name=last_name, age=age, \
+               profession=profession, affiliation=affiliation))
+
+
+def multiplyAll(*values):
+    mul = 1 
+    for i in values:
+        mul = mul * i
+    return mul
+    
+def add(a,b,dt=False):
+    if dt==False:
+        return a+b
+    else:
+        print(a+b)
+        return a+b
+print(add(2,3))
+print("Optional command")
+print(add(2,3,True))
+
+
